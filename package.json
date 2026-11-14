@@ -1,0 +1,11 @@
+{
+  "name": "urja",
+  "private": true,
+  "workspaces": ["apps/web"],
+  "scripts": {
+    "dev": "npm --workspace @urja/web run dev",
+    "typecheck": "npm --workspace @urja/web run typecheck",
+    "validate:data": "python tools/validate_data.py",
+    "check": "npm run validate:data && npm run typecheck"
+  }
+}

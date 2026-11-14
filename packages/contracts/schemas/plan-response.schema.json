@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"PlanResponse","type":"object","additionalProperties":false,"required":["plans"],"properties":{"plans":{"type":"array","items":{"$ref":"day-plan.schema.json"}}}}

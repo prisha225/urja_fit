@@ -1,0 +1,13 @@
+repos:
+  - repo: local
+    hooks:
+      - id: validate-data
+        name: validate fixture data
+        entry: python tools/validate_data.py
+        language: system
+        pass_filenames: false
+      - id: typecheck
+        name: web type check
+        entry: npm run typecheck
+        language: system
+        pass_filenames: false
