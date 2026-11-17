@@ -1,6 +1,20 @@
+# Dependencies
 node_modules/
-.next/
+
+# Build output and caches
+**/.next/
+dist/
+build/
 __pycache__/
-.venv/
-*.pyc
+*.py[cod]
 *.tsbuildinfo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# OS files
+.DS_Store
+Thumbs.db
