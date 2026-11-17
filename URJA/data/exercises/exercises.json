@@ -1,0 +1,246 @@
+[
+  {
+    "id": "chair_squat",
+    "name": {
+      "en": "Chair Squat",
+      "hinglish": "Kursi Squat"
+    },
+    "pattern": "squat",
+    "level": "new",
+    "equipment": ["chair"],
+    "space": "tiny",
+    "quiet": true,
+    "intensityRPE": 3,
+    "contraindicatedFlags": ["acute_knee_pain"],
+    "gentleOk": true,
+    "cues": {
+      "en": ["Sit back and down", "Chest up tall", "Press through your heels"],
+      "hinglish": ["Kursi par aaram se baithiye", "Seena seedha rakhein", "Aaram se upar aaiye"]
+    },
+    "keyframes": "chair_squat.json",
+    "cv": { "ruleId": "chair_squat" }
+  },
+  {
+    "id": "wall_pushup",
+    "name": {
+      "en": "Wall Push-up",
+      "hinglish": "Deewar Push-up"
+    },
+    "pattern": "push",
+    "level": "new",
+    "equipment": ["none"],
+    "space": "tiny",
+    "quiet": true,
+    "intensityRPE": 3,
+    "contraindicatedFlags": ["wrist_injury"],
+    "gentleOk": true,
+    "cues": {
+      "en": ["One straight line", "Bend elbows smoothly", "Press firmly away"],
+      "hinglish": ["Seedhi line banayein", "Kohni aaram se modiye", "Deewar se wapas push karein"]
+    },
+    "keyframes": "wall_pushup.json",
+    "cv": { "ruleId": "wall_pushup" }
+  },
+  {
+    "id": "forearm_plank",
+    "name": {
+      "en": "Forearm Plank",
+      "hinglish": "Forearm Plank Hold"
+    },
+    "pattern": "core",
+    "level": "some",
+    "equipment": ["mat"],
+    "space": "room",
+    "quiet": true,
+    "intensityRPE": 5,
+    "contraindicatedFlags": ["lower_back_pain", "pelvic_pain", "hernia"],
+    "gentleOk": false,
+    "cues": {
+      "en": ["Lift your hips", "Hold steady and breathe", "Gaze down at hands"],
+      "hinglish": ["Kamar ko na jhukne dein", "Dheere saans lete rahein", "Seedhi line banayein"]
+    },
+    "keyframes": "forearm_plank.json",
+    "cv": { "ruleId": "forearm_plank" }
+  },
+  {
+    "id": "tree_pose",
+    "name": {
+      "en": "Tree Pose (Vrikshasana)",
+      "hinglish": "Vrikshasana Balance"
+    },
+    "pattern": "yoga",
+    "level": "new",
+    "equipment": ["none"],
+    "space": "tiny",
+    "quiet": true,
+    "intensityRPE": 2,
+    "contraindicatedFlags": ["severe_dizziness"],
+    "gentleOk": true,
+    "cues": {
+      "en": ["Find one focal point", "Foot above or below knee", "Breathe slow and steady"],
+      "hinglish": ["Saamne ek jagah dhyan lagayein", "Ghutne par pair na rakhein", "Santulan banaye rakhein"]
+    },
+    "keyframes": "tree_pose.json",
+    "cv": { "ruleId": "tree_pose" }
+  },
+  {
+    "id": "glute_bridge",
+    "name": {
+      "en": "Glute Bridge",
+      "hinglish": "Glute Bridge Setu Bandha"
+    },
+    "pattern": "hinge",
+    "level": "new",
+    "equipment": ["mat"],
+    "space": "tiny",
+    "quiet": true,
+    "intensityRPE": 3,
+    "contraindicatedFlags": ["acute_back_spasm"],
+    "gentleOk": true,
+    "cues": {
+      "en": ["Press through your heels", "Squeeze hips at top", "Lower down with control"],
+      "hinglish": ["Aediyon se zameen dabayein", "Hips ko aaram se uthayein", "Dheere se neeche layein"]
+    },
+    "keyframes": "glute_bridge.json"
+  },
+  {
+    "id": "bird_dog",
+    "name": {
+      "en": "Bird Dog",
+      "hinglish": "Bird Dog Balance"
+    },
+    "pattern": "core",
+    "level": "new",
+    "equipment": ["mat"],
+    "space": "room",
+    "quiet": true,
+    "intensityRPE": 3,
+    "contraindicatedFlags": ["wrist_pain"],
+    "gentleOk": true,
+    "cues": {
+      "en": ["Reach opposite arm and leg", "Keep hips level", "Move slow and steady"],
+      "hinglish": ["Haath aur pair aage peechhe failayein", "Kamar seedhi rakhein", "Dheere control ke saath karein"]
+    },
+    "keyframes": "bird_dog.json"
+  },
+  {
+    "id": "seated_shoulder_rolls",
+    "name": {
+      "en": "Seated Shoulder Rolls",
+      "hinglish": "Kandhe Ke Circles"
+    },
+    "pattern": "mobility",
+    "level": "new",
+    "equipment": ["chair"],
+    "space": "tiny",
+    "quiet": true,
+    "intensityRPE": 1,
+    "contraindicatedFlags": [],
+    "gentleOk": true,
+    "cues": {
+      "en": ["Roll shoulders back gently", "Relax your neck", "Breathe deeply in and out"],
+      "hinglish": ["Kandhon ko peeche ghumayein", "Gardan ko aaram dein", "Gehri saans lein"]
+    },
+    "keyframes": "seated_shoulder_rolls.json"
+  },
+  {
+    "id": "standing_calf_raise",
+    "name": {
+      "en": "Standing Calf Raises",
+      "hinglish": "Aedi Uthana Calf Raise"
+    },
+    "pattern": "balance",
+    "level": "new",
+    "equipment": ["none", "chair"],
+    "space": "tiny",
+    "quiet": true,
+    "intensityRPE": 2,
+    "contraindicatedFlags": ["ankle_sprain"],
+    "gentleOk": true,
+    "cues": {
+      "en": ["Lift tall onto toes", "Hold for one second", "Lower down slowly"],
+      "hinglish": ["Panjon par uthiye", "Ek pal ke liye rukiye", "Dheere se aedi zameen par layein"]
+    },
+    "keyframes": "standing_calf_raise.json"
+  },
+  {
+    "id": "cat_cow_stretch",
+    "name": {
+      "en": "Cat-Cow Stretch (Marjaryasana)",
+      "hinglish": "Marjaryasana Cat-Cow"
+    },
+    "pattern": "mobility",
+    "level": "new",
+    "equipment": ["mat"],
+    "space": "room",
+    "quiet": true,
+    "intensityRPE": 2,
+    "contraindicatedFlags": [],
+    "gentleOk": true,
+    "cues": {
+      "en": ["Inhale arch your spine", "Exhale round your back", "Gentle smooth movement"],
+      "hinglish": ["Saans lete hue peeth jhukayein", "Saans chhodte hue peeth gol karein", "Aaram se flow banayein"]
+    },
+    "keyframes": "cat_cow.json"
+  },
+  {
+    "id": "low_impact_marching",
+    "name": {
+      "en": "Gentle Marching in Place",
+      "hinglish": "Ghar Pe Aaram Se March"
+    },
+    "pattern": "cardio_low",
+    "level": "new",
+    "equipment": ["none"],
+    "space": "tiny",
+    "quiet": true,
+    "intensityRPE": 3,
+    "contraindicatedFlags": ["acute_knee_pain"],
+    "gentleOk": true,
+    "cues": {
+      "en": ["Swing arms naturally", "Soft footsteps on floor", "Keep an easy rhythm"],
+      "hinglish": ["Haath aaram se hilayein", "Aawaz bina pair rakhein", "Aasan pace par chalein"]
+    },
+    "keyframes": "marching.json"
+  },
+  {
+    "id": "doorway_chest_stretch",
+    "name": {
+      "en": "Doorway Chest Stretch",
+      "hinglish": "Darwaze Pe Chest Stretch"
+    },
+    "pattern": "mobility",
+    "level": "new",
+    "equipment": ["none"],
+    "space": "tiny",
+    "quiet": true,
+    "intensityRPE": 1,
+    "contraindicatedFlags": ["shoulder_impingement"],
+    "gentleOk": true,
+    "cues": {
+      "en": ["Step forward gently", "Feel stretch across chest", "Never bounce or force"],
+      "hinglish": ["Ek kadam aage badhayein", "Seene me aaram se stretch mehsoos karein", "Jhatka bilkul na dein"]
+    },
+    "keyframes": "doorway_stretch.json"
+  },
+  {
+    "id": "childs_pose",
+    "name": {
+      "en": "Child's Pose (Balasana)",
+      "hinglish": "Balasana Rest Pose"
+    },
+    "pattern": "yoga",
+    "level": "new",
+    "equipment": ["mat"],
+    "space": "tiny",
+    "quiet": true,
+    "intensityRPE": 1,
+    "contraindicatedFlags": ["severe_knee_pain"],
+    "gentleOk": true,
+    "cues": {
+      "en": ["Sink hips back to heels", "Rest forehead on mat", "Breathe into your back"],
+      "hinglish": ["Hips aedi par aaram se le jayein", "Maatha mat par tikayein", "Gehri shaant saans lein"]
+    },
+    "keyframes": "childs_pose.json"
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "exerciseId": "glute_bridge",
+  "fps": 30,
+  "durationMs": 2200,
+  "recordedBy": "Sakhi Team (Internal Capture)",
+  "frames": [
+    {
+      "phase": "floor_rest",
+      "timeFraction": 0.0,
+      "joints": {
+        "nose": [0.25, 0.70],
+        "left_shoulder": [0.32, 0.75], "right_shoulder": [0.34, 0.73],
+        "left_elbow": [0.38, 0.77], "right_elbow": [0.40, 0.75],
+        "left_wrist": [0.45, 0.77], "right_wrist": [0.47, 0.75],
+        "left_hip": [0.52, 0.75], "right_hip": [0.54, 0.73],
+        "left_knee": [0.65, 0.60], "right_knee": [0.67, 0.58],
+        "left_ankle": [0.70, 0.77], "right_ankle": [0.72, 0.75]
+      }
+    },
+    {
+      "phase": "bridge_peak",
+      "timeFraction": 0.5,
+      "joints": {
+        "nose": [0.25, 0.70],
+        "left_shoulder": [0.32, 0.75], "right_shoulder": [0.34, 0.73],
+        "left_elbow": [0.38, 0.77], "right_elbow": [0.40, 0.75],
+        "left_wrist": [0.45, 0.77], "right_wrist": [0.47, 0.75],
+        "left_hip": [0.52, 0.58], "right_hip": [0.54, 0.56],
+        "left_knee": [0.65, 0.60], "right_knee": [0.67, 0.58],
+        "left_ankle": [0.70, 0.77], "right_ankle": [0.72, 0.75]
+      }
+    },
+    {
+      "phase": "floor_rest",
+      "timeFraction": 1.0,
+      "joints": {
+        "nose": [0.25, 0.70],
+        "left_shoulder": [0.32, 0.75], "right_shoulder": [0.34, 0.73],
+        "left_elbow": [0.38, 0.77], "right_elbow": [0.40, 0.75],
+        "left_wrist": [0.45, 0.77], "right_wrist": [0.47, 0.75],
+        "left_hip": [0.52, 0.75], "right_hip": [0.54, 0.73],
+        "left_knee": [0.65, 0.60], "right_knee": [0.67, 0.58],
+        "left_ankle": [0.70, 0.77], "right_ankle": [0.72, 0.75]
+      }
+    }
+  ]
+}

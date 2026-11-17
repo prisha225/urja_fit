@@ -1,0 +1,124 @@
+{
+  "rules": {
+    "chair_squat": {
+      "exerciseId": "chair_squat",
+      "type": "rep",
+      "primaryJoints": ["hip", "knee", "ankle"],
+      "thresholds": {
+        "downAngle": 110,
+        "upAngle": 160,
+        "minRepTimeMs": 1000,
+        "optimalDepthMax": 100,
+        "torsoLeanMax": 45
+      },
+      "checks": [
+        {
+          "id": "depth",
+          "condition": "minKneeAngle <= 100",
+          "cue": {
+            "en": "Sit back a little lower, if comfortable",
+            "hinglish": "Thoda sa aur neeche baithiye"
+          }
+        },
+        {
+          "id": "torso_lean",
+          "condition": "torsoAngle <= 45",
+          "cue": {
+            "en": "Chest up tall",
+            "hinglish": "Seena seedha rakhein"
+          }
+        },
+        {
+          "id": "tempo",
+          "condition": "repDurationMs >= 1000",
+          "cue": {
+            "en": "Slow down",
+            "hinglish": "Thoda dheere karein"
+          }
+        }
+      ]
+    },
+    "wall_pushup": {
+      "exerciseId": "wall_pushup",
+      "type": "rep",
+      "primaryJoints": ["shoulder", "elbow", "wrist"],
+      "thresholds": {
+        "downAngle": 100,
+        "upAngle": 155,
+        "minRepTimeMs": 800,
+        "bodyLineMin": 160
+      },
+      "checks": [
+        {
+          "id": "body_line",
+          "condition": "bodyLineAngle >= 160",
+          "cue": {
+            "en": "Keep one straight line",
+            "hinglish": "Seedhi line banayein"
+          }
+        },
+        {
+          "id": "range_of_motion",
+          "condition": "minElbowAngle <= 100",
+          "cue": {
+            "en": "Bend elbows a bit more",
+            "hinglish": "Kohni thodi aur modiye"
+          }
+        }
+      ]
+    },
+    "forearm_plank": {
+      "exerciseId": "forearm_plank",
+      "type": "hold",
+      "primaryJoints": ["shoulder", "hip", "ankle"],
+      "thresholds": {
+        "bodyLineMin": 165,
+        "bodyLineMax": 195
+      },
+      "checks": [
+        {
+          "id": "hip_sag",
+          "condition": "bodyLineAngle >= 165",
+          "cue": {
+            "en": "Lift hips a little",
+            "hinglish": "Hips ko thoda uthayein"
+          }
+        },
+        {
+          "id": "hip_pike",
+          "condition": "bodyLineAngle <= 195",
+          "cue": {
+            "en": "Lower hips a little",
+            "hinglish": "Hips ko thoda neeche karein"
+          }
+        }
+      ]
+    },
+    "tree_pose": {
+      "exerciseId": "tree_pose",
+      "type": "hold",
+      "primaryJoints": ["standing_hip", "standing_knee", "standing_ankle"],
+      "thresholds": {
+        "standingKneeMin": 165
+      },
+      "checks": [
+        {
+          "id": "standing_leg",
+          "condition": "standingKneeAngle >= 165",
+          "cue": {
+            "en": "Press into the standing leg",
+            "hinglish": "Seedhe pair par pressure banayein"
+          }
+        },
+        {
+          "id": "foot_placement",
+          "condition": "liftedFootNotOnKnee == true",
+          "cue": {
+            "en": "Foot above or below the knee",
+            "hinglish": "Ghutne par pair na rakhein"
+          }
+        }
+      ]
+    }
+  }
+}

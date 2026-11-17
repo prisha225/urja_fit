@@ -1,0 +1,47 @@
+{
+  "exerciseId": "bird_dog",
+  "fps": 30,
+  "durationMs": 2400,
+  "recordedBy": "Sakhi Team (Internal Capture)",
+  "frames": [
+    {
+      "phase": "tabletop",
+      "timeFraction": 0.0,
+      "joints": {
+        "nose": [0.35, 0.50],
+        "left_shoulder": [0.42, 0.55], "right_shoulder": [0.44, 0.53],
+        "left_elbow": [0.42, 0.65], "right_elbow": [0.44, 0.63],
+        "left_wrist": [0.42, 0.75], "right_wrist": [0.44, 0.73],
+        "left_hip": [0.62, 0.55], "right_hip": [0.64, 0.53],
+        "left_knee": [0.62, 0.70], "right_knee": [0.64, 0.68],
+        "left_ankle": [0.62, 0.76], "right_ankle": [0.64, 0.74]
+      }
+    },
+    {
+      "phase": "reach_extension",
+      "timeFraction": 0.5,
+      "joints": {
+        "nose": [0.35, 0.50],
+        "left_shoulder": [0.42, 0.55], "right_shoulder": [0.44, 0.53],
+        "left_elbow": [0.30, 0.55], "right_elbow": [0.44, 0.63],
+        "left_wrist": [0.20, 0.55], "right_wrist": [0.44, 0.73],
+        "left_hip": [0.62, 0.55], "right_hip": [0.64, 0.53],
+        "left_knee": [0.75, 0.55], "right_knee": [0.64, 0.68],
+        "left_ankle": [0.88, 0.55], "right_ankle": [0.64, 0.74]
+      }
+    },
+    {
+      "phase": "tabletop",
+      "timeFraction": 1.0,
+      "joints": {
+        "nose": [0.35, 0.50],
+        "left_shoulder": [0.42, 0.55], "right_shoulder": [0.44, 0.53],
+        "left_elbow": [0.42, 0.65], "right_elbow": [0.44, 0.63],
+        "left_wrist": [0.42, 0.75], "right_wrist": [0.44, 0.73],
+        "left_hip": [0.62, 0.55], "right_hip": [0.64, 0.53],
+        "left_knee": [0.62, 0.70], "right_knee": [0.64, 0.68],
+        "left_ankle": [0.62, 0.76], "right_ankle": [0.64, 0.74]
+      }
+    }
+  ]
+}

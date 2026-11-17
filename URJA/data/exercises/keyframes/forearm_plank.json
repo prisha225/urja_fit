@@ -1,0 +1,34 @@
+{
+  "exerciseId": "forearm_plank",
+  "fps": 30,
+  "durationMs": 3000,
+  "recordedBy": "Sakhi Team (Internal Capture)",
+  "frames": [
+    {
+      "phase": "hold",
+      "timeFraction": 0.0,
+      "joints": {
+        "nose": [0.26, 0.52],
+        "left_shoulder": [0.32, 0.56], "right_shoulder": [0.34, 0.54],
+        "left_elbow": [0.32, 0.72], "right_elbow": [0.34, 0.70],
+        "left_wrist": [0.25, 0.72], "right_wrist": [0.27, 0.70],
+        "left_hip": [0.55, 0.58], "right_hip": [0.57, 0.56],
+        "left_knee": [0.70, 0.63], "right_knee": [0.72, 0.61],
+        "left_ankle": [0.85, 0.70], "right_ankle": [0.87, 0.68]
+      }
+    },
+    {
+      "phase": "hold",
+      "timeFraction": 1.0,
+      "joints": {
+        "nose": [0.26, 0.52],
+        "left_shoulder": [0.32, 0.56], "right_shoulder": [0.34, 0.54],
+        "left_elbow": [0.32, 0.72], "right_elbow": [0.34, 0.70],
+        "left_wrist": [0.25, 0.72], "right_wrist": [0.27, 0.70],
+        "left_hip": [0.55, 0.58], "right_hip": [0.57, 0.56],
+        "left_knee": [0.70, 0.63], "right_knee": [0.72, 0.61],
+        "left_ankle": [0.85, 0.70], "right_ankle": [0.87, 0.68]
+      }
+    }
+  ]
+}

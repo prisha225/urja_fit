@@ -1,0 +1,34 @@
+{
+  "exerciseId": "childs_pose",
+  "fps": 30,
+  "durationMs": 3000,
+  "recordedBy": "Sakhi Team (Internal Capture)",
+  "frames": [
+    {
+      "phase": "rest_hold",
+      "timeFraction": 0.0,
+      "joints": {
+        "nose": [0.28, 0.72],
+        "left_shoulder": [0.38, 0.68], "right_shoulder": [0.40, 0.66],
+        "left_elbow": [0.28, 0.64], "right_elbow": [0.30, 0.62],
+        "left_wrist": [0.18, 0.64], "right_wrist": [0.20, 0.62],
+        "left_hip": [0.62, 0.68], "right_hip": [0.64, 0.66],
+        "left_knee": [0.55, 0.76], "right_knee": [0.57, 0.74],
+        "left_ankle": [0.65, 0.76], "right_ankle": [0.67, 0.74]
+      }
+    },
+    {
+      "phase": "rest_hold",
+      "timeFraction": 1.0,
+      "joints": {
+        "nose": [0.28, 0.72],
+        "left_shoulder": [0.38, 0.68], "right_shoulder": [0.40, 0.66],
+        "left_elbow": [0.28, 0.64], "right_elbow": [0.30, 0.62],
+        "left_wrist": [0.18, 0.64], "right_wrist": [0.20, 0.62],
+        "left_hip": [0.62, 0.68], "right_hip": [0.64, 0.66],
+        "left_knee": [0.55, 0.76], "right_knee": [0.57, 0.74],
+        "left_ankle": [0.65, 0.76], "right_ankle": [0.67, 0.74]
+      }
+    }
+  ]
+}

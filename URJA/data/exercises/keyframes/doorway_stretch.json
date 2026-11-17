@@ -1,0 +1,34 @@
+{
+  "exerciseId": "doorway_chest_stretch",
+  "fps": 30,
+  "durationMs": 2000,
+  "recordedBy": "Sakhi Team (Internal Capture)",
+  "frames": [
+    {
+      "phase": "stretch_hold",
+      "timeFraction": 0.0,
+      "joints": {
+        "nose": [0.50, 0.16],
+        "left_shoulder": [0.46, 0.28], "right_shoulder": [0.54, 0.28],
+        "left_elbow": [0.38, 0.28], "right_elbow": [0.62, 0.28],
+        "left_wrist": [0.38, 0.18], "right_wrist": [0.62, 0.18],
+        "left_hip": [0.47, 0.52], "right_hip": [0.53, 0.52],
+        "left_knee": [0.45, 0.70], "right_knee": [0.55, 0.74],
+        "left_ankle": [0.45, 0.88], "right_ankle": [0.55, 0.92]
+      }
+    },
+    {
+      "phase": "stretch_hold",
+      "timeFraction": 1.0,
+      "joints": {
+        "nose": [0.50, 0.16],
+        "left_shoulder": [0.46, 0.28], "right_shoulder": [0.54, 0.28],
+        "left_elbow": [0.38, 0.28], "right_elbow": [0.62, 0.28],
+        "left_wrist": [0.38, 0.18], "right_wrist": [0.62, 0.18],
+        "left_hip": [0.47, 0.52], "right_hip": [0.53, 0.52],
+        "left_knee": [0.45, 0.70], "right_knee": [0.55, 0.74],
+        "left_ankle": [0.45, 0.88], "right_ankle": [0.55, 0.92]
+      }
+    }
+  ]
+}

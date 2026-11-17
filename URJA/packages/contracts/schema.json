@@ -1,0 +1,148 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SakhiContracts",
+  "definitions": {
+    "Space": {
+      "type": "string",
+      "enum": ["tiny", "room", "balcony"]
+    },
+    "Equip": {
+      "type": "string",
+      "enum": ["none", "bottle", "chair", "band", "mat", "towel"]
+    },
+    "Lang": {
+      "type": "string",
+      "enum": ["en", "hinglish", "hi"]
+    },
+    "Pocket": {
+      "type": "object",
+      "required": ["start", "minutes"],
+      "properties": {
+        "start": { "type": "string", "pattern": "^[0-2][0-9]:[0-5][0-9]$" },
+        "minutes": { "type": "integer", "minimum": 5, "maximum": 120 }
+      }
+    },
+    "UserProfile": {
+      "type": "object",
+      "required": [
+        "ageBand", "goal", "level", "pockets", "space", "equipment",
+        "quiet", "lang", "diet", "region", "budgetBand", "cookMinutes", "avoidFoods", "tracks"
+      ],
+      "properties": {
+        "ageBand": { "type": "string", "enum": ["18-29", "30-44", "45-59", "60+"] },
+        "goal": { "type": "string", "enum": ["energy", "strength", "gentle_weight_loss", "mobility"] },
+        "level": { "type": "string", "enum": ["new", "some", "regular"] },
+        "pockets": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/Pocket" }
+        },
+        "space": { "$ref": "#/definitions/Space" },
+        "equipment": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/Equip" }
+        },
+        "quiet": { "type": "boolean" },
+        "lang": { "$ref": "#/definitions/Lang" },
+        "diet": { "type": "string", "enum": ["veg", "egg", "nonveg", "jain"] },
+        "region": { "type": "string", "enum": ["north", "south", "east", "west", "maharashtrian", "gujarati", "bengali", "other"] },
+        "budgetBand": { "type": "string", "enum": ["low", "mid", "flex"] },
+        "cookMinutes": { "type": "integer", "enum": [20, 40, 60] },
+        "avoidFoods": { "type": "array", "items": { "type": "string" } },
+        "tracks": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["home", "yoga", "cycle_wellness"] }
+        }
+      }
+    },
+    "ScreeningResult": {
+      "type": "object",
+      "required": ["outcome", "flags"],
+      "properties": {
+        "outcome": { "type": "string", "enum": ["GO", "GO_GENTLE", "STOP_CONSULT"] },
+        "flags": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "Block": {
+      "type": "object",
+      "required": ["exerciseId", "sets", "restSec"],
+      "properties": {
+        "exerciseId": { "type": "string" },
+        "sets": { "type": "integer", "minimum": 1 },
+        "reps": { "type": "integer", "minimum": 1 },
+        "holdSec": { "type": "integer", "minimum": 5 },
+        "restSec": { "type": "integer", "minimum": 0 },
+        "note": { "type": "string" }
+      }
+    },
+    "Session": {
+      "type": "object",
+      "required": ["pocketStart", "minutes", "warmup", "main", "cooldown", "rationale"],
+      "properties": {
+        "pocketStart": { "type": "string" },
+        "minutes": { "type": "integer" },
+        "warmup": { "type": "array", "items": { "$ref": "#/definitions/Block" } },
+        "main": { "type": "array", "items": { "$ref": "#/definitions/Block" } },
+        "cooldown": { "type": "array", "items": { "$ref": "#/definitions/Block" } },
+        "rationale": { "type": "string" }
+      }
+    },
+    "DayPlan": {
+      "type": "object",
+      "required": ["date", "kind", "sessions"],
+      "properties": {
+        "date": { "type": "string" },
+        "kind": { "type": "string", "enum": ["train", "gentle", "rest"] },
+        "sessions": { "type": "array", "items": { "$ref": "#/definitions/Session" } },
+        "source": { "type": "string", "enum": ["llm", "fallback"] }
+      }
+    },
+    "MealItem": {
+      "type": "object",
+      "required": ["foodId", "grams"],
+      "properties": {
+        "foodId": { "type": "string" },
+        "grams": { "type": "number", "minimum": 1 }
+      }
+    },
+    "Meal": {
+      "type": "object",
+      "required": ["id", "slot", "items", "kcal", "proteinG", "costInr", "cookMin", "tags", "familyShareable"],
+      "properties": {
+        "id": { "type": "string" },
+        "slot": { "type": "string", "enum": ["breakfast", "lunch", "dinner", "snack"] },
+        "items": { "type": "array", "items": { "$ref": "#/definitions/MealItem" } },
+        "kcal": { "type": "number" },
+        "proteinG": { "type": "number" },
+        "costInr": { "type": "number" },
+        "cookMin": { "type": "integer" },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "familyShareable": { "type": "boolean" }
+      }
+    },
+    "MealPlan": {
+      "type": "object",
+      "required": ["date", "meals", "targets", "totals"],
+      "properties": {
+        "date": { "type": "string" },
+        "meals": { "type": "array", "items": { "$ref": "#/definitions/Meal" } },
+        "targets": {
+          "type": "object",
+          "required": ["kcal", "proteinG"],
+          "properties": {
+            "kcal": { "type": "number" },
+            "proteinG": { "type": "number" }
+          }
+        },
+        "totals": {
+          "type": "object",
+          "required": ["kcal", "proteinG", "costInr"],
+          "properties": {
+            "kcal": { "type": "number" },
+            "proteinG": { "type": "number" },
+            "costInr": { "type": "number" }
+          }
+        }
+      }
+    }
+  }
+}

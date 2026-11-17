@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600&family=Young+Serif&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --aubergine: #2B1B3D;
+  --marigold:  #F5B427;
+  --peacock:   #0F7B83;
+  --hibiscus:  #D6336C;
+  --mist:      #F4F3F8;
+  --white:     #FFFFFF;
+  --ink-70:    rgba(43,27,61,.70);
+  --ink-12:    rgba(43,27,61,.12);
+
+  --font-display: "Young Serif", Georgia, serif;
+  --font-body: "Hind", "Noto Sans Devanagari", system-ui, sans-serif;
+
+  --t-xs: .8rem;
+  --t-sm: .9rem;
+  --t-md: 1rem;
+  --t-lg: 1.25rem;
+  --t-xl: 1.56rem;
+  --t-2xl: 1.95rem;
+  --t-3xl: 2.44rem;
+
+  --r-dial: 999px;
+  --r-hero: 28px;
+  --r-chip: 999px;
+  --r-sheet: 24px 24px 0 0;
+  --r-field: 12px;
+}
+
+body {
+  color: var(--aubergine);
+  background-color: var(--mist);
+  font-family: var(--font-body);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+/* Enforce max line length under 70 characters for readability */
+p, li, .prose-line {
+  max-width: 65ch;
+}
+
+/* Touch targets at least 44px */
+button, a, input, select {
+  min-height: 44px;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

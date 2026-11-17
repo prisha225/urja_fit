@@ -1,0 +1,60 @@
+{
+  "exerciseId": "chair_squat",
+  "fps": 30,
+  "durationMs": 2400,
+  "recordedBy": "Sakhi Team (Internal Capture)",
+  "frames": [
+    {
+      "phase": "standing",
+      "timeFraction": 0.0,
+      "joints": {
+        "nose": [0.5, 0.15],
+        "left_shoulder": [0.48, 0.28], "right_shoulder": [0.52, 0.28],
+        "left_elbow": [0.46, 0.40], "right_elbow": [0.54, 0.40],
+        "left_wrist": [0.47, 0.50], "right_wrist": [0.53, 0.50],
+        "left_hip": [0.48, 0.52], "right_hip": [0.52, 0.52],
+        "left_knee": [0.48, 0.72], "right_knee": [0.52, 0.72],
+        "left_ankle": [0.48, 0.90], "right_ankle": [0.52, 0.90]
+      }
+    },
+    {
+      "phase": "descent",
+      "timeFraction": 0.4,
+      "joints": {
+        "nose": [0.53, 0.32],
+        "left_shoulder": [0.50, 0.42], "right_shoulder": [0.54, 0.42],
+        "left_elbow": [0.47, 0.50], "right_elbow": [0.55, 0.50],
+        "left_wrist": [0.45, 0.48], "right_wrist": [0.55, 0.48],
+        "left_hip": [0.42, 0.68], "right_hip": [0.46, 0.68],
+        "left_knee": [0.50, 0.72], "right_knee": [0.54, 0.72],
+        "left_ankle": [0.48, 0.90], "right_ankle": [0.52, 0.90]
+      }
+    },
+    {
+      "phase": "bottom_chair",
+      "timeFraction": 0.5,
+      "joints": {
+        "nose": [0.54, 0.35],
+        "left_shoulder": [0.51, 0.45], "right_shoulder": [0.55, 0.45],
+        "left_elbow": [0.48, 0.52], "right_elbow": [0.56, 0.52],
+        "left_wrist": [0.46, 0.50], "right_wrist": [0.56, 0.50],
+        "left_hip": [0.40, 0.72], "right_hip": [0.44, 0.72],
+        "left_knee": [0.51, 0.74], "right_knee": [0.55, 0.74],
+        "left_ankle": [0.48, 0.90], "right_ankle": [0.52, 0.90]
+      }
+    },
+    {
+      "phase": "standing",
+      "timeFraction": 1.0,
+      "joints": {
+        "nose": [0.5, 0.15],
+        "left_shoulder": [0.48, 0.28], "right_shoulder": [0.52, 0.28],
+        "left_elbow": [0.46, 0.40], "right_elbow": [0.54, 0.40],
+        "left_wrist": [0.47, 0.50], "right_wrist": [0.53, 0.50],
+        "left_hip": [0.48, 0.52], "right_hip": [0.52, 0.52],
+        "left_knee": [0.48, 0.72], "right_knee": [0.52, 0.72],
+        "left_ankle": [0.48, 0.90], "right_ankle": [0.52, 0.90]
+      }
+    }
+  ]
+}

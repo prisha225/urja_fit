@@ -11,9 +11,10 @@ export const careQuestions = [
   "Is there anything else your doctor has asked you to be careful about with exercise or food?",
 ] as const;
 
-/** Pure, local safety logic. Free text is only checked for presence, never interpreted. */
-export function assessCare(answers: CareAnswer[], optionalText: string): CareOutcome {
+/** Pure, local safety routing. Answers are never persisted or sent. */
+export function assessCare(answers: CareAnswer[]): CareOutcome {
   if (answers.slice(0, 5).some((answer) => answer === "yes")) return "STOP_CONSULT";
-  if (answers[5] === "yes" || optionalText.trim().length > 0) return "GO_GENTLE";
+  if (answers[6] === "yes") return "STOP_CONSULT";
+  if (answers[5] === "yes") return "GO_GENTLE";
   return "GO";
 }

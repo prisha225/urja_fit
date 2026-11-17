@@ -1,0 +1,47 @@
+{
+  "exerciseId": "standing_calf_raise",
+  "fps": 30,
+  "durationMs": 1800,
+  "recordedBy": "Sakhi Team (Internal Capture)",
+  "frames": [
+    {
+      "phase": "flat_heels",
+      "timeFraction": 0.0,
+      "joints": {
+        "nose": [0.50, 0.16],
+        "left_shoulder": [0.47, 0.28], "right_shoulder": [0.53, 0.28],
+        "left_elbow": [0.46, 0.40], "right_elbow": [0.54, 0.40],
+        "left_wrist": [0.46, 0.52], "right_wrist": [0.54, 0.52],
+        "left_hip": [0.47, 0.52], "right_hip": [0.53, 0.52],
+        "left_knee": [0.47, 0.72], "right_knee": [0.53, 0.72],
+        "left_ankle": [0.47, 0.90], "right_ankle": [0.53, 0.90]
+      }
+    },
+    {
+      "phase": "tiptoe_peak",
+      "timeFraction": 0.5,
+      "joints": {
+        "nose": [0.50, 0.12],
+        "left_shoulder": [0.47, 0.24], "right_shoulder": [0.53, 0.24],
+        "left_elbow": [0.46, 0.36], "right_elbow": [0.54, 0.36],
+        "left_wrist": [0.46, 0.48], "right_wrist": [0.54, 0.48],
+        "left_hip": [0.47, 0.48], "right_hip": [0.53, 0.48],
+        "left_knee": [0.47, 0.68], "right_knee": [0.53, 0.68],
+        "left_ankle": [0.47, 0.84], "right_ankle": [0.53, 0.84]
+      }
+    },
+    {
+      "phase": "flat_heels",
+      "timeFraction": 1.0,
+      "joints": {
+        "nose": [0.50, 0.16],
+        "left_shoulder": [0.47, 0.28], "right_shoulder": [0.53, 0.28],
+        "left_elbow": [0.46, 0.40], "right_elbow": [0.54, 0.40],
+        "left_wrist": [0.46, 0.52], "right_wrist": [0.54, 0.52],
+        "left_hip": [0.47, 0.52], "right_hip": [0.53, 0.52],
+        "left_knee": [0.47, 0.72], "right_knee": [0.53, 0.72],
+        "left_ankle": [0.47, 0.90], "right_ankle": [0.53, 0.90]
+      }
+    }
+  ]
+}

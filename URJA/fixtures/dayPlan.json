@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-15",
+  "kind": "train",
+  "sessions": [
+    {
+      "pocketStart": "06:15",
+      "minutes": 18,
+      "warmup": [
+        {
+          "exerciseId": "seated_shoulder_rolls",
+          "sets": 1,
+          "reps": 10,
+          "restSec": 15,
+          "note": "Aaram se kandhe ghumayein"
+        },
+        {
+          "exerciseId": "low_impact_marching",
+          "sets": 1,
+          "reps": 20,
+          "restSec": 20,
+          "note": "Light warm-up"
+        }
+      ],
+      "main": [
+        {
+          "exerciseId": "chair_squat",
+          "sets": 3,
+          "reps": 10,
+          "restSec": 45,
+          "note": "Sit back down tall"
+        },
+        {
+          "exerciseId": "wall_pushup",
+          "sets": 2,
+          "reps": 8,
+          "restSec": 45,
+          "note": "Push softly away"
+        }
+      ],
+      "cooldown": [
+        {
+          "exerciseId": "doorway_chest_stretch",
+          "sets": 1,
+          "holdSec": 30,
+          "restSec": 15,
+          "note": "Gentle chest opener"
+        },
+        {
+          "exerciseId": "childs_pose",
+          "sets": 1,
+          "holdSec": 45,
+          "restSec": 0,
+          "note": "Relax completely"
+        }
+      ],
+      "rationale": "Two 18-minute windows fit your mornings; legs today, quiet moves so the kids don't wake up."
+    }
+  ],
+  "source": "llm"
+}

@@ -1,0 +1,47 @@
+{
+  "exerciseId": "cat_cow_stretch",
+  "fps": 30,
+  "durationMs": 3000,
+  "recordedBy": "Sakhi Team (Internal Capture)",
+  "frames": [
+    {
+      "phase": "cow_pose_arch",
+      "timeFraction": 0.0,
+      "joints": {
+        "nose": [0.32, 0.44],
+        "left_shoulder": [0.42, 0.54], "right_shoulder": [0.44, 0.52],
+        "left_elbow": [0.42, 0.65], "right_elbow": [0.44, 0.63],
+        "left_wrist": [0.42, 0.75], "right_wrist": [0.44, 0.73],
+        "left_hip": [0.65, 0.52], "right_hip": [0.67, 0.50],
+        "left_knee": [0.65, 0.70], "right_knee": [0.67, 0.68],
+        "left_ankle": [0.65, 0.76], "right_ankle": [0.67, 0.74]
+      }
+    },
+    {
+      "phase": "cat_pose_round",
+      "timeFraction": 0.5,
+      "joints": {
+        "nose": [0.36, 0.58],
+        "left_shoulder": [0.42, 0.48], "right_shoulder": [0.44, 0.46],
+        "left_elbow": [0.42, 0.65], "right_elbow": [0.44, 0.63],
+        "left_wrist": [0.42, 0.75], "right_wrist": [0.44, 0.73],
+        "left_hip": [0.65, 0.58], "right_hip": [0.67, 0.56],
+        "left_knee": [0.65, 0.70], "right_knee": [0.67, 0.68],
+        "left_ankle": [0.65, 0.76], "right_ankle": [0.67, 0.74]
+      }
+    },
+    {
+      "phase": "cow_pose_arch",
+      "timeFraction": 1.0,
+      "joints": {
+        "nose": [0.32, 0.44],
+        "left_shoulder": [0.42, 0.54], "right_shoulder": [0.44, 0.52],
+        "left_elbow": [0.42, 0.65], "right_elbow": [0.44, 0.63],
+        "left_wrist": [0.42, 0.75], "right_wrist": [0.44, 0.73],
+        "left_hip": [0.65, 0.52], "right_hip": [0.67, 0.50],
+        "left_knee": [0.65, 0.70], "right_knee": [0.67, 0.68],
+        "left_ankle": [0.65, 0.76], "right_ankle": [0.67, 0.74]
+      }
+    }
+  ]
+}

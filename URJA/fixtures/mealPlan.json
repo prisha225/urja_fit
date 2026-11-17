@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-15",
+  "meals": [
+    {
+      "id": "breakfast_poha_chaas",
+      "slot": "breakfast",
+      "items": [
+        { "foodId": "poha_cooked", "grams": 160 },
+        { "foodId": "buttermilk_chaas", "grams": 200 }
+      ],
+      "kcal": 328,
+      "proteinG": 8.0,
+      "costInr": 13.0,
+      "cookMin": 15,
+      "tags": ["quick", "staple", "light"],
+      "familyShareable": true
+    },
+    {
+      "id": "lunch_north_thali_dal_roti",
+      "slot": "lunch",
+      "items": [
+        { "foodId": "roti_atta", "grams": 80 },
+        { "foodId": "dal_toor_cooked", "grams": 150 },
+        { "foodId": "bhindi_sabzi", "grams": 100 },
+        { "foodId": "curd_dahi", "grams": 100 },
+        { "foodId": "kachumber_salad", "grams": 80 }
+      ],
+      "kcal": 579,
+      "proteinG": 24.5,
+      "costInr": 28.0,
+      "cookMin": 30,
+      "tags": ["comfort", "family_staple", "high_fibre"],
+      "familyShareable": true
+    },
+    {
+      "id": "snack_roasted_makhana",
+      "slot": "snack",
+      "items": [
+        { "foodId": "roasted_makhana", "grams": 25 }
+      ],
+      "kcal": 88,
+      "proteinG": 2.4,
+      "costInr": 8.0,
+      "cookMin": 5,
+      "tags": ["crunchy", "iron_rich", "light"],
+      "familyShareable": true
+    },
+    {
+      "id": "dinner_light_khichdi",
+      "slot": "dinner",
+      "items": [
+        { "foodId": "oats_khichdi", "grams": 200 },
+        { "foodId": "curd_dahi", "grams": 100 },
+        { "foodId": "kachumber_salad", "grams": 80 }
+      ],
+      "kcal": 320,
+      "proteinG": 12.6,
+      "costInr": 23.0,
+      "cookMin": 20,
+      "tags": ["easy_digest", "comfort", "quick"],
+      "familyShareable": true
+    }
+  ],
+  "targets": {
+    "kcal": 1350,
+    "proteinG": 48.0
+  },
+  "totals": {
+    "kcal": 1315,
+    "proteinG": 47.5,
+    "costInr": 72.0
+  }
+}

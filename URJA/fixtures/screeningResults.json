@@ -1,0 +1,14 @@
+{
+  "go": {
+    "outcome": "GO",
+    "flags": []
+  },
+  "go_gentle": {
+    "outcome": "GO_GENTLE",
+    "flags": ["joint_pain_reported"]
+  },
+  "stop_consult": {
+    "outcome": "STOP_CONSULT",
+    "flags": ["chest_pain_dizziness"]
+  }
+}

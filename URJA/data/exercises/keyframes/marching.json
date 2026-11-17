@@ -1,0 +1,47 @@
+{
+  "exerciseId": "low_impact_marching",
+  "fps": 30,
+  "durationMs": 1600,
+  "recordedBy": "Sakhi Team (Internal Capture)",
+  "frames": [
+    {
+      "phase": "left_knee_lift",
+      "timeFraction": 0.0,
+      "joints": {
+        "nose": [0.50, 0.16],
+        "left_shoulder": [0.47, 0.28], "right_shoulder": [0.53, 0.28],
+        "left_elbow": [0.42, 0.38], "right_elbow": [0.58, 0.45],
+        "left_wrist": [0.40, 0.48], "right_wrist": [0.59, 0.58],
+        "left_hip": [0.47, 0.52], "right_hip": [0.53, 0.52],
+        "left_knee": [0.44, 0.62], "right_knee": [0.53, 0.72],
+        "left_ankle": [0.44, 0.78], "right_ankle": [0.53, 0.90]
+      }
+    },
+    {
+      "phase": "right_knee_lift",
+      "timeFraction": 0.5,
+      "joints": {
+        "nose": [0.50, 0.16],
+        "left_shoulder": [0.47, 0.28], "right_shoulder": [0.53, 0.28],
+        "left_elbow": [0.58, 0.45], "right_elbow": [0.42, 0.38],
+        "left_wrist": [0.59, 0.58], "right_wrist": [0.40, 0.48],
+        "left_hip": [0.47, 0.52], "right_hip": [0.53, 0.52],
+        "left_knee": [0.47, 0.72], "right_knee": [0.56, 0.62],
+        "left_ankle": [0.47, 0.90], "right_ankle": [0.56, 0.78]
+      }
+    },
+    {
+      "phase": "left_knee_lift",
+      "timeFraction": 1.0,
+      "joints": {
+        "nose": [0.50, 0.16],
+        "left_shoulder": [0.47, 0.28], "right_shoulder": [0.53, 0.28],
+        "left_elbow": [0.42, 0.38], "right_elbow": [0.58, 0.45],
+        "left_wrist": [0.40, 0.48], "right_wrist": [0.59, 0.58],
+        "left_hip": [0.47, 0.52], "right_hip": [0.53, 0.52],
+        "left_knee": [0.44, 0.62], "right_knee": [0.53, 0.72],
+        "left_ankle": [0.44, 0.78], "right_ankle": [0.53, 0.90]
+      }
+    }
+  ]
+}

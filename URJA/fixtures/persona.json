@@ -1,0 +1,19 @@
+{
+  "ageBand": "30-44",
+  "goal": "energy",
+  "level": "new",
+  "pockets": [
+    { "start": "06:15", "minutes": 18 },
+    { "start": "17:30", "minutes": 15 }
+  ],
+  "space": "tiny",
+  "equipment": ["none", "chair"],
+  "quiet": true,
+  "lang": "hinglish",
+  "diet": "veg",
+  "region": "north",
+  "budgetBand": "mid",
+  "cookMinutes": 20,
+  "avoidFoods": [],
+  "tracks": ["home"]
+}
